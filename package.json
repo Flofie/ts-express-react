@@ -5,14 +5,13 @@
   "license": "MIT",
   "private": true,
   "workspaces": [
-     "packages/*"
+    "packages/*"
   ],
   "devDependencies": {
     "lerna": "^4.0.0"
   },
   "scripts": {
     "client": "yarn workspace @my-app/client",
-    "common": "yarn workspace @my-app/common",
     "server": "yarn workspace @my-app/server",
     "dev": "yarn client dev & yarn server dev --verbose",
     "start": "yarn server start"
